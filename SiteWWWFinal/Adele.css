@@ -1,0 +1,82 @@
+body{
+    background-image: url('imagens/fundoadele.svg'); /* Imagem de fundo */
+    background-size: cover;             /* Faz a imagem cobrir toda a tela */
+    background-repeat: no-repeat;       /* Evita que a imagem se repita */
+    background-position: center ;        /* Centraliza a imagem */
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.conteiner{
+    background-image: url("imagens/Rectangle\ 2.png");
+    margin-top: 0;
+    padding: 12px;
+}
+.conteiner p{
+    display: flex;
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin: 0;
+    padding: 60px;
+}
+
+ul a{
+    list-style: none;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 25px;
+
+}
+nav ul li{
+    text-align: center;
+    display: inline-block;
+    padding: 50px;
+}
+nav{
+    text-align: center;
+    padding: 2px; /*criar espaço interno entre o conteúdo de um elemento e sua borda*/
+}    
+a{
+    text-decoration: none; /*Remove decorações de texto, como o sublinhado padrão de links.*/
+    color: white; /*Define a cor do texto como branca.*/
+    text-align: center; /*Alinha o texto horizontalmente ao centro do elemento.*/   
+}
+main{
+    text-align: center;
+
+}
+footer {
+    position: fixed; /*Fixa o elemento em uma posição específica na tela, independente da rolagem da página.*/
+    bottom: 0; /*Posiciona o elemento encostado na parte inferior da janela (quando usado com position: fixed).*/
+    left: 0; /*Alinha o elemento com o lado esquerdo da janela.*/
+    width: 100%; /*Faz o elemento ocupar toda a largura da tela.*/
+    background-image: url("imagens/Rectangle 1.png");
+    background-size: cover; /*Faz a imagem de fundo cobrir toda a área do elemento, ajustando o tamanho da imagem. Pode cortar partes da imagem para se ajustar.*/
+    background-position: center; /*Centraliza a imagem de fundo dentro do elemento.*/
+    background-repeat: no-repeat; /*Impede que a imagem de fundo se repita, mesmo que o elemento seja maior do que a imagem.*/ 
+    padding: 30px 20px;
+    text-align: center;
+    z-index: 999; /* Garante que o footer fique por cima de outros elementos */
+}
+section{
+    text-align: center;
+    padding: 20px;
+}
+ul.icons{
+    list-style: none;
+    padding: 0;
+    margin: 0 auto; /*Define margem superior e inferior como 0, e margens laterais automáticas, centralizando o elemento horizontalmente (funciona quando o elemento tem largura definida).*/
+    display: flex; /*Ativa o modelo Flexbox, permitindo um controle avançado de layout dos elementos filhos.*/
+    justify-content: center; /*Centraliza horizontalmente os elementos filhos dentro de um contêiner flex.*/
+    gap: 100px; /* espaçamento entre os ícones */
+}
+ul.icons li img:hover {
+    transform: scale(1.1); /* efeito de zoom ao passar o mouse */
+}
+section p {
+    margin-top: 15px;
+    font-size: 28px;
+    color: #ffffff;
+}

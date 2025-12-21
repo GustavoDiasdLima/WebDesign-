@@ -1,0 +1,91 @@
+body{
+    background-image: url('imagens/fundoadele.svg'); /* Imagem de fundo */
+    background-size: cover;             /* Faz a imagem cobrir toda a tela */
+    background-repeat: no-repeat;       /* Evita que a imagem se repita */
+    background-position: center ;        /* Centraliza a imagem */
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.conteiner{
+    background-image: url("imagens/Rectangle\ 2.png");
+    margin-top: 0;
+    padding: 12px;
+}
+.conteiner p{
+    display: flex;
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin: 0;
+    padding: 60px;
+}
+
+ul a{
+    list-style: none;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 25px;
+
+}
+nav ul li{
+    text-align: center;
+    display: inline-block;
+    padding: 50px;
+}
+nav{
+    text-align: center;
+    padding: 2px;
+}    
+a{
+    text-decoration: none;
+    color: white;
+    text-align: center;    
+}
+.imagens{
+     display: grid;
+    grid-template-columns: repeat(5, 1fr); /* 5 colunas iguais */
+    gap: 30px; /* Espaço entre as imagens */
+    padding: 40px;
+    max-width: 1600px;
+    margin: 0 auto;
+
+}
+.imagens img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    object-fit: cover;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+footer{
+    width: 100%;
+    background-image: url("imagens/Rectangle 1.png");
+    background-size: cover;         /* Faz a imagem cobrir toda a área do rodapé */
+    background-position: center;    /* Centraliza a imagem */
+    background-repeat: no-repeat;   /* Evita repetição da imagem */
+    padding: 30px 20px;             /* Espaçamento interno */
+    text-align: center;    
+}
+section{
+    text-align: center;
+    padding: 20px;
+}
+ul.icons{
+    list-style: none;
+    padding: 0;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    gap: 100px; /* espaçamento entre os ícones */
+}
+ul.icons li img:hover {
+    transform: scale(1.1); /* efeito de zoom ao passar o mouse */
+}
+section p {
+    margin-top: 15px;
+    font-size: 28px;
+    color: #ffffff;
+}
