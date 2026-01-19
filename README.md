@@ -3,6 +3,16 @@
 
 <h3>Sobre:</h3>
 <p>Local destinado ao armazenamento de atividades principais do primeiro semestre de Web Design e futuros projetos pessoais.</p>
+
+<h3>Links para Acesso:</h3>
+<ul>
+  https://gustavodiasdlima.github.io/WebDesign-/AdeleCards/Teste.html<br>
+  https://gustavodiasdlima.github.io/WebDesign-/SiteWWWFinal/index.html<br>
+  https://gustavodiasdlima.github.io/WebDesign-/atividade18.07.25/index.html<br>
+  https://gustavodiasdlima.github.io/WebDesign-/aula13-atividade/Aula13WEBDESIGN/index.html<br>
+  https://gustavodiasdlima.github.io/WebDesign-/aula7-raw/index.html
+</ul>
+
 <h3>Ferramentas Utilizadas:</h3>
   <div style="display: inline_block"><br>
   <img align="center" alt="Gustavohtml5" height="30" width="40" <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg" />
